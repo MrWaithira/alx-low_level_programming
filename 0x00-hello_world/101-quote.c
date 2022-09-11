@@ -1,9 +1,9 @@
-#include <stdio.h>
+#include <unistd.h>
 
 /**
  * main - function
  *
- * Return: Always 0  (Successful)
+ * Return: Always 1  (Successful)
  */
 
 int main(void)
