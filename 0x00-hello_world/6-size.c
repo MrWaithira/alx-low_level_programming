@@ -1,4 +1,12 @@
 #include <stdio.h>
+/**
+ *
+ * print
+ * char
+ *
+ * successful
+ *
+ */
 
 int main(void)
 {
