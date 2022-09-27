@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stlib.h>
+#include <stdlib.h>
 /**
  * main - 101-print
  *
@@ -35,6 +35,6 @@ int main(void)
 		}
 		++n1;
 	}
-	puchar('\n');
+	putchar('\n');
 	return (0);
 }
