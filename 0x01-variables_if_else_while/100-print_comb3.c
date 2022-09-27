@@ -8,17 +8,28 @@
  */
 int main(void)
 {
-	int d;
+	int n1 =  0, n2;
 
-	for (d = 1; d < 90; d++)
+	while (n1 <= 9)
 	{
-		putchar((d / 10) + "0");
-		putchar((d % 10) + "0");
-		if (d != 89)
+		n2 = 0;
+		while (n2 <= 9)
 		{
-			putchar(',');
-			putchar(' ');
+			if (n1 != n2 && n1 < n2)
+			{
+				putchar(n1 + 48);
+				putchar(n2 + 48);
+
+				if (n1 + n2 != 17)
+				{
+
+					putchar(',');
+					putchar(' ');
+				}
+			}
+			++n2;
 		}
+		++n1;
 	}
 	putchar('\n');
 	return (0);
