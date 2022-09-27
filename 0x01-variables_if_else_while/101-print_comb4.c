@@ -1,0 +1,40 @@
+#include <stdio.h>
+#include <stlib.h>
+/**
+ * main - 101-print
+ *
+ * Return: Always 0 (if success)
+ */
+int main(void)
+{
+	int n1 = 0, n2, n3;
+
+	while (n1 <= 9)
+	{
+		n2 = 0;
+		while (n2 <= 9)
+		{
+			n3 = 0;
+			while (n3 <= 9)
+			{
+				if (n1 != n2 && n1 < n2 && n2 != n3 && n2 < n3)
+				{
+					putchar(n1 + 48);
+					putchar(n2 + 48);
+					putchar(n3 + 48);
+					
+					if (n1 + n2 + n3 != 24)
+					{
+						putchar(',');
+						putchar(' ');
+					}
+				}
+				++n3;
+			}
+			++n2;
+		}
+		++n1;
+	}
+	puchar('\n');
+	return (0);
+}
