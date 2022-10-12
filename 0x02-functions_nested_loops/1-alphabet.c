@@ -6,7 +6,7 @@
  *
  * Return: Always 0 (success)
  */
-int main(void)
+void print_alphabet(void)
 {
 	int j;
 	for (j = 'a'; j <= 'z'; j++)
@@ -14,5 +14,4 @@ int main(void)
 		putchar(j);
 	}
 	putchar('\n');
-	return (0);
 }
