@@ -1,6 +1,4 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <stdio.h>
+#include "main.h"
 /**
  * main - functions nested loops
  *
