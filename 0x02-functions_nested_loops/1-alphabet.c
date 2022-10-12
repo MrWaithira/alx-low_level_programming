@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - functions nested loops
+ * print_alphabet - functions prints abc
  *
  * Return: Always 0 (success)
  */
